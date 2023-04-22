@@ -41,7 +41,6 @@ public final class GradesTable extends javax.swing.JFrame {
         }
     }
    
-    
     public ArrayList<StudentInfo> getstudentsList()
     {
         ArrayList<StudentInfo> sList = new ArrayList<>();
