@@ -23,6 +23,7 @@ public class StudentsGradingSystem1 {
                     Thread.sleep(45);
                     spl.loadingNum.setText("Loading..."+Integer.toString(i) +" %");
                     spl.jProgressBarload.setValue(i);
+                    
                     //open grading panel if loading in the progress bar is over
                     if(i == 100){
                         
